@@ -1,16 +1,34 @@
-# React + Vite
+🧠Interactive Mind Map Visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, data-driven Mind Map visualization built using React + React Flow, supporting hierarchical structures, expand/collapse interactions, hover details, side panel summaries, and export functionality.
 
-Currently, two official plugins are available:
+This project is fully data-driven — updating the JSON data automatically updates the UI without changing the code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Core Functional Requirements
+Interactive mindmap / graph visualization
+Hierarchical parent → child relationships
+Clean, readable, and visually appealing layout
+Automatic graph layout using Dagre
 
-## React Compiler
+Interactive Features
+Click to expand / collapse nodes
+Highlight related nodes and edges
+Fit to View / Reset View
+Hover interactions for quick summaries
+Side panel displaying detailed node information
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Data-Driven Rendering (Key Requirement)
+Entire mindmap is generated from a JSON data file
+No hardcoded nodes
+Updating JSON automatically updates:
+Node labels
+Descriptions
+Hierarchy
+Metadata
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack
+React
+React Flow
+Dagre (automatic layout)
+CSS (custom styling)
