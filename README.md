@@ -32,3 +32,9 @@ React
 React Flow
 Dagre (automatic layout)
 CSS (custom styling)
+
+ScreenShots
+![alt text](<Screenshot 2025-12-30 144553.png>) 
+![alt text](<Screenshot 2025-12-30 144436.png>) 
+![alt text](<Screenshot 2025-12-30 144458.png>) 
+![alt text](<Screenshot 2025-12-30 144512.png>)
