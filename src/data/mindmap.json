@@ -1,0 +1,37 @@
+{
+  "id": "root",
+  "label": "Vitamins in Human Body",
+  "summary": "Essential micronutrients for normal body functions",
+  "details": "Vitamins are organic compounds required in small quantities for growth, metabolism, immunity, and cellular repair.",
+  "children": [
+    {
+      "id": "classification",
+      "label": "Vitamin Classification",
+      "summary": "Based on solubility",
+      "details": "Vitamins are classified as fat-soluble or water-soluble.",
+      "children": [
+        {
+          "id": "fat",
+          "label": "Fat-Soluble Vitamins",
+          "summary": "Stored in body fat",
+          "details": "Includes Vitamins A, D, E, and K.",
+          "children": []
+        },
+        {
+          "id": "water",
+          "label": "Water-Soluble Vitamins",
+          "summary": "Not stored for long",
+          "details": "Includes Vitamin C and B-complex vitamins.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "label": "Dietary Sources",
+      "summary": "Food-based sources",
+      "details": "Fruits, vegetables, dairy, grains, and meats provide vitamins.",
+      "children": []
+    }
+  ]
+}

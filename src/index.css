@@ -1,0 +1,58 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  height: 100%;
+}
+
+.canvas {
+  flex: 1;
+  background: #0f172a;
+}
+
+.node {
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: #e0f2fe;
+  border: 2px solid #38bdf8;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.summary {
+  font-size: 12px;
+  color: #475569;
+}
+
+.toolbar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.toolbar button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.side {
+  width: 320px;
+  padding: 20px;
+  background: #020617;
+  color: white;
+}
+
+.react-flow__viewport {
+  background: transparent !important;
+}
